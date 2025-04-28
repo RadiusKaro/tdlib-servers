@@ -1,0 +1,24 @@
+{
+  "name": "tdlib-server",
+  "version": "1.0.0",
+  "description": "Telegram Group Info Server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "login": "node first-login.js",
+    "generate-session": "node generateSession.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "input": "^1.0.1",
+    "telegram": "^2.26.22"
+  }
+}
