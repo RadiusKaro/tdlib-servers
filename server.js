@@ -95,7 +95,7 @@ app.post('/fetch-info', async (req, res) => {
     });
 
   } catch (error) {
-    console.error("❌ Error:", error);
+    console.error("❌ Error:", error); 
     return res.status(500).json({
       success: false,
       error: error.message,
