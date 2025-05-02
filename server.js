@@ -4,7 +4,7 @@ const axios = require('axios');
 require('dotenv').config();
 
 const app = express();
-const BOT_TOKEN = '7577036209:AAF0thcCRwbkSefwb00jeI-jV3HdTxFFpjI';
+const BOT_TOKEN = process.env.BOT_TOKEN; // Load from .env
 
 // Middleware
 app.use(express.json({ limit: '10kb' }));
